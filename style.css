@@ -1,0 +1,180 @@
+:root{
+    --cor_fundo_info: #ffcf91;
+}
+@font-face{
+    font-family: 'Super Shiny';
+    src: url('fonts/SuperShiny.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gorditas';
+    src: url('fonts/Gorditas-Regular.ttf') format('truetype');
+    src: url('fonts/Gorditas-Bold.ttf') format('truetype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    font-family: 'Gorditas', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+#quadro_principal{
+    width: 800px;
+    padding: 10px;
+    background-color: var(--cor_fundo_info);
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+  
+}
+#quadro_principal h2{
+    font-family:  cursive;
+    color:rgb(247, 7, 7);
+}
+#quadro_principal div:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.coisas_preferidas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+   
+    
+}
+.coisas_preferidas > div{
+    margin-bottom: 1px;
+     border-radius: 20px;
+}
+.coisas_preferidas  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.coisas_preferidas p {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.63);
+    
+}
+
+#musica {
+    display: none;
+}
+#musica:target{
+    display: flex;
+}
+#cor{
+    display: none;
+}
+#cor:target{
+    display: flex;
+}
+#hobby{
+    display: none;
+}
+#hobby:target{
+    display:flex
+}
+#comida{
+    display: none;
+}
+#comida:target{
+    display:flex
+}
+#personagem{
+    display: none;
+}
+#personagem:target{
+    display:flex
+}
+#jogo{
+    display: none;
+}
+#jogo:target{
+    display:flex
+}
+#estilo{
+    display: none;
+}
+#estilo:target{
+    display:flex
+}
+#animal{
+    display: none;
+}
+#animal:target{
+    display:flex
+}
+#flor{
+    display: none;
+}
+#flor:target{
+    display:flex
+}
+.explicacao{
+   width: 800px;
+    background-image: linear-gradient(to right , #FFB091 , var(--cor_fundo_info));
+   padding: 10px;
+   margin: auto;
+   margin-top: 40px;
+   display: flex;
+   border-radius: 10px;
+   align-items: center; 
+   
+    
+}
+.explicacao h2{
+    font-family: 'Gorditas', cursive;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.explicacao p{
+    text-align: justify;
+}
+.explicacao img{
+    margin-left: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.explicacao img:hover{
+    box-shadow: 3px 2px 10px white;
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+    border-style: ;
+}
+
+#estilo span{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.541);
+    font-weight:lighter;
+}
+footer {
+    color: white;
+    font-weight: bolder;
+    background-color: #919EFF;
+    padding: 5px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+   
+}
